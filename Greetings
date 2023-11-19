@@ -2,6 +2,6 @@ _Greetings =
 
 VAR v_LoginUserName = SUBSTITUTE(LEFT(USERPRINCIPALNAME(), FIND("@", USERPRINCIPALNAME()) - 1), ".", " ")
 
-RETURN  " Seja Bem Vindo(a)
+RETURN  " Welcome
 " & v_LoginUserName  &  "!"
 G
